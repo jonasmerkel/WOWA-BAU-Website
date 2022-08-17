@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+h1,h2 {
+  text-decoration: underline rgb(0, 159, 233);
+}
+
+#top {
+  text-align: center;
+}
+
+#logo {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 22px;
+}
+
+.saying {
+    @font-face {
+    font-family: 'courgetteregular';
+    src: url('../hidden/fonts/courgette-regular-webfont.woff2') format('woff2'),
+         url('../hidden/fonts/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  font-size: 40px;
+  padding: 3px;
+}
+
+:root {
+  --linkColor: rgb(0, 159, 233);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 2vh 5vw;
+  gap: 0.5em;
+  flex-flow: wrap;
+}
+nav a {
+  padding: 0.6em 1em;
+  border: solid 2px var(--linkColor);
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+nav a:hover {
+  box-shadow: 1px 2px rgb(101, 190, 231);
+  background-color: var(--linkColor);
+  color: white;
+}
+
+#imagetop {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main {
+  max-width: 800px;
+  margin: auto;
+  padding: 16px;
+}
+
+.footer {
+  margin: 0;
+  padding: 20px 20px 5px 20px;
+  height: auto;
+  width: auto;
+  background-color: grey;
+}
+
+#footerup {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  list-style: none;
+  color: white
+}
+.container a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: white;
+}
+.container a:hover {
+  color: var(--linkColor);
+}
+
+#contact {
+  padding: 20px;
+  float: left;
+}
+
+#legal_notice-privacy {
+  padding: 20px;
+  float: left;
+}
+
+#footerdown {
+  text-align: center;
+  font-size: 13px;
+}

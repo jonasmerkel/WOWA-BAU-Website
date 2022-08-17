@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+#top {
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    text-decoration: underline rgb(0, 159, 233);
+}
+
+nav {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+#main {
+    padding: 15px;
+    justify-content: center;
+
+}
+
+#contentblock {
+    display: flex;
+    justify-content: center;
+}
+
+#content-legal-notice {
+    max-width: 300px;
+}
+
+#content-privacy {
+    max-width: 900px;
+}
+
+#content-cookies {
+    max-width: fit-content;
+}
